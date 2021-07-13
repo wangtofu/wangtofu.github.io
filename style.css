@@ -1,3 +1,54 @@
 a:hover {
     color:  green; /*鼠标经过的颜色变化*/
     }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  height: 100%;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+header {
+    height: 200px;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto; /* 宽度自适应 */
+    background-color: #d6d6d6;
+  }
+ 
+aside {
+  background-color: red;
+  flex: 0 1 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+article {
+    background-color:  orange;
+    flex: 0 1 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+  }
+
+  footer {
+    height: 150px;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+  }
