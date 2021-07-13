@@ -12,7 +12,7 @@ body {
  
 header {
     height: 200px;
-    background-color: #666;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,11 +24,11 @@ main {
     justify-content: center;
     align-items: center;
     flex: auto; /* 宽度自适应 */
-    background-color: #d6d6d6;
+    background-color: white ;
   }
  
 aside {
-  height: 200px;
+  height: 400px;
   background-color: red;
   flex: 0 1 200px;
   display: flex;
@@ -37,7 +37,7 @@ aside {
   flex: 1;
 }
 article {
-    height: 200px;
+    height: 400px;
     background-color:  orange;
     flex: 0 1 200px;
     display: flex;
@@ -47,8 +47,8 @@ article {
   }
 
   footer {
-    height: 150px;
-    background-color: #666;
+    height: 200px;
+    background-color: burlywood;
     display: flex;
     justify-content: center;
     align-items: center;
